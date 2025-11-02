@@ -11,7 +11,7 @@ settings = Settings()
 
 # Page Configuration
 st.set_page_config(
-    page_title="AstraRAG - Intelligent Assistant",
+    page_title="VeriRAG - Intelligent Assistant",
     page_icon="🌌",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -298,7 +298,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Header
-st.markdown('<h1 class="main-title">🌌 AstraRAG</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-title">✨ VeriRAG</h1>', unsafe_allow_html=True)
 st.markdown('<p class="subtitle">Your Intelligent Agentic RAG Assistant</p>', unsafe_allow_html=True)
 
 # Initialize chat history
