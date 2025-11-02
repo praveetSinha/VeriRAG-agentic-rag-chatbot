@@ -8,7 +8,7 @@ from llama_index.llms.groq import Groq
 from llama_index.core import Settings
 import chromadb
 
-from src.agents_src.config.agent_settings import AgentSettings
+from agents_src.config.agent_settings import AgentSettings
 
 # Get a logger for this module
 logger = logging.getLogger(__name__)

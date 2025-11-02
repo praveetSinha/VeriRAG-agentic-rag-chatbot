@@ -1,6 +1,6 @@
 from crewai import LLM
 
-from src.agents_src.llm.llm_configuration import LLM_CONFIG
+from agents_src.llm.llm_configuration import LLM_CONFIG
 
 
 def get_llm_for_agent(agent_name):

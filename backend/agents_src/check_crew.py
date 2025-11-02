@@ -1,6 +1,6 @@
 from pprint import pprint
 
-from src.agents_src.crew import qa_crew
+from agents_src.crew import qa_crew
 
 
 # input_data = {

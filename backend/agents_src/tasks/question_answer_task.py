@@ -1,7 +1,7 @@
 from crewai import Task
 from pydantic import BaseModel
 
-from src.agents_src.agents.question_answer_agent import qa_agent
+from agents_src.agents.question_answer_agent import qa_agent
 
 
 class AnswerStructure(BaseModel):

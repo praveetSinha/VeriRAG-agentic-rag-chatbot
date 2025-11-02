@@ -2,7 +2,7 @@ import logging
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from typing import List
-from backend.backend_src.services.chat import get_answer
+from backend_src.services.chat import get_answer
 
 logger = logging.getLogger(__name__)
 

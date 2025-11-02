@@ -1,5 +1,5 @@
 import logging
-from src.agents_src.crew import qa_crew
+from agents_src.crew import qa_crew
 
 logger = logging.getLogger(__name__)
 

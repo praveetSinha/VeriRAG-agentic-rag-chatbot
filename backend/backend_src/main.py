@@ -1,7 +1,7 @@
 import logging
 from fastapi import FastAPI
-from backend.backend_src.api.chat import router as chat_router
-from backend.backend_src.config.backend_settings import Settings
+from backend_src.api.chat import router as chat_router
+from backend_src.config.backend_settings import Settings
 from fastapi.middleware.cors import CORSMiddleware
 
 logging.basicConfig(

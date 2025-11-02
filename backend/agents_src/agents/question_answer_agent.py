@@ -1,7 +1,7 @@
 from crewai import Agent
 
-from src.agents_src.tools.rag_qa_tool import rag_query_tool
-from src.agents_src.llm.get_llm import get_llm_for_agent
+from agents_src.tools.rag_qa_tool import rag_query_tool
+from agents_src.llm.get_llm import get_llm_for_agent
 
 
 name = "Question Answer Agent"
